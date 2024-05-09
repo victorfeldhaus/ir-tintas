@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAC302;
+    align-items: center;
+}
+
+header .menu-inicio {
+    display: flex;
+}
+
+header .menu-inicio li {
+    margin-left: 3rem;
+    font-size: 1.3rem;
+}
+
+header .menu-inicio li:hover {
+    text-decoration: underline;
+}
+
+/* LOGIN */
+
+.login ul{
+    display: flex;
+}
+
+.login ul li {
+    margin-left: 2.8rem;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.login ul li:nth-child(2) {
+    margin-right: 20px;
+}
+
+
+.bg-inicio {
+    width: 100%;
+    height: 800px;
+}
